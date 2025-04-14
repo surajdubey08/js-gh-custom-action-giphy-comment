@@ -13,6 +13,6 @@ runs:
   using: 'node20'
   main: 'dist/index.js'
 
-  branding:
-    icon: 'activity'
-    color: 'green'
+branding:
+  icon: 'activity'
+  color: 'green'
