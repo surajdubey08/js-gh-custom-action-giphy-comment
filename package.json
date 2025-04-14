@@ -1,0 +1,27 @@
+{
+  "name": "js-gh-custom-action-giphy-comment",
+  "version": "1.0.0",
+  "description": "This repo is to learn about GH JavaScript Custom actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajdubey08/js-gh-custom-action-giphy-comment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajdubey08/js-gh-custom-action-giphy-comment/issues"
+  },
+  "homepage": "https://github.com/surajdubey08/js-gh-custom-action-giphy-comment#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "@octokit/rest": "^21.1.1",
+    "@vercel/ncc": "^0.38.3",
+    "giphy-api": "^2.0.2"
+  }
+}
