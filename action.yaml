@@ -1,4 +1,4 @@
-name: 'Giphy PR Comment'
+name: 'Giphy PR Comment- Test Action'
 description: 'Add a Giphy GIF as comment to a new PR.'
 
 inputs:
@@ -12,3 +12,7 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
+  branding:
+    icon: 'activity'
+    color: 'green'
